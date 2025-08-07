@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cricket Field</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🏏 Welcome to Cricket Field</h1>
+    <nav>
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Responsive Content Section -->
+  <main class="grid-container">
+    <section class="news">
+      <h2>Cricket News</h2>
+      <p>India wins the series against Australia with a thrilling finish!</p>
+    </section>
+    <section class="score">
+      <h2>Live Score</h2>
+      <p>India: 245/3 (40 overs)</p>
+    </section>
+    <section class="players">
+      <h2>Top Players</h2>
+      <ul>
+        <li>Virat Kohli</li>
+        <li>Rohit Sharma</li>
+        <li>Jasprit Bumrah</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Updated Dynamic Image Gallery with File Upload -->
+  <section id="gallery" class="gallery">
+    <h2>📸 Cricket Moments Gallery</h2>
+    <form id="imageForm">
+      <input type="file" id="imageFile" accept="image/*" required>
+      <button type="submit">Add Image</button>
+    </form>
+    <div id="imageList" class="image-list"></div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact">
+    <h2>📬 Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Cricket Field. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
