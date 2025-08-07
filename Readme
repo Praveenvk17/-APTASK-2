@@ -1,0 +1,63 @@
+====================================================================
+🏏 CRICKET FIELD WEBSITE PROJECT
+====================================================================
+
+📌 Project Objective:
+---------------------
+Build a responsive cricket-themed website using HTML, CSS, and JavaScript.
+The goal is to enhance frontend development skills including:
+- HTML form creation
+- CSS styling and responsive layouts using Flexbox and Grid
+- JavaScript DOM manipulation and event handling
+
+🎯 Key Features:
+----------------
+✅ Responsive webpage layout using Flexbox and CSS Grid  
+✅ Cricket-themed content with live scores and news section  
+✅ Contact form with client-side JavaScript validation  
+✅ Dynamic image gallery where users can upload cricket images  
+✅ Clean and modern UI with accessibility in mind  
+
+📁 File Structure:
+------------------
+- index.html       → Main website file with content structure
+- style.css        → CSS file for layout, design, and responsiveness
+- script.js        → JavaScript for form validation and image upload logic
+- README.txt       → Project overview and documentation
+
+🧪 How to Run the Project:
+---------------------------
+1. Download or clone the repository:
+   https://github.com/yourusername/cricket-field-website
+
+2. Open the folder in a code editor (e.g., VS Code)
+
+3. Open `index.html` in a browser:
+   - You will see a welcome message and a cricket-themed layout
+   - Scroll down to test the image gallery and contact form
+
+4. Upload local cricket images using the "Add Image" button  
+5. Submit the contact form with valid inputs to test validation
+
+🧰 Technologies Used:
+----------------------
+- HTML5
+- CSS3 (Flexbox & Grid)
+- JavaScript (ES6)
+- FileReader API
+
+📱 Responsive Design:
+---------------------
+- Works well on desktops, tablets, and mobile devices
+- Navigation and layout adjust with screen size
+
+🙌 Acknowledgements:
+---------------------
+This project was created to practice and demonstrate core web development skills.
+Ideal for beginners learning DOM manipulation and responsive UI.
+
+📬 Contact:
+-----------
+For suggestions or collaboration, reach out via the contact form on the site!
+
+© 2025 Cricket Field Website. All rights reserved.
